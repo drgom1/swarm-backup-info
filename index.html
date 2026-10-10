@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="he" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Swarm Drive Backups — גיבוי אישי</title>
+  <style>body{max-width:44rem;margin:3rem auto;padding:0 1.25rem;font:1.1rem/1.8 system-ui,sans-serif;color:#17252b;background:#fafaf7}h1,h2{line-height:1.3}a{color:#075e78}nav{display:flex;gap:1.3rem;flex-wrap:wrap}footer{margin-top:3rem;font-size:.9rem;color:#46545a}</style>
+</head>
+<body>
+  <header><nav aria-label="ניווט ראשי"><a href="index.html" aria-current="page">דף הבית</a><a href="privacy.html">פרטיות</a><a href="terms.html">תנאי שימוש</a></nav></header>
+  <main>
+    <h1><bdi>Swarm Drive Backups</bdi></h1>
+    <p>כלי אישי לגיבוי מסמכי מחקר ונתוני העבודה הקשורים אליהם בחשבון גוגל דרייב של בעל הכלי. הוא אינו שירות המוצע לציבור ואינו דורש תשלום ממשתמשים.</p>
+    <h2>למה נדרשת גישה לחשבון</h2>
+    <p>הכלי מבקש את ההרשאה המצומצמת <bdi><code>drive.file</code></bdi>, כדי ליצור ולנהל את קובצי הגיבוי של היישום. הרשאה זו אינה מעניקה גישה כללית לכל קובצי החשבון; היא חלה על קבצים שהיישום יצר או שהמשתמש העניק לו גישה אליהם.</p>
+    <h2>איך נשמר הגיבוי</h2>
+    <p>תוכן הגיבוי מוצפן בשרת באמצעות <bdi>Restic</bdi> לפני העלאתו לגוגל דרייב. <bdi>rclone</bdi> מעביר את הקבצים ומחדש את הרשאת הגישה באמצעות אסימון חידוש שנשמר באופן מוגן. חומר ההתאוששות נשמר גם מחוץ לגוגל דרייב.</p>
+    <p>הנתונים שהכלי מקבל מגוגל אינם מועברים למודלי בינה מלאכותית. מדיניות השמירה מסירה גיבויים ישנים מתוך מאגר הגיבוי בלבד, ואינה מוחקת את מסמכי המקור.</p>
+    <p>אפשר לבטל את הגישה בכל עת דרך <a href="https://myaccount.google.com/connections">החיבורים לחשבון גוגל</a>. פרטים נוספים מופיעים ב<a href="privacy.html">מדיניות הפרטיות</a> וב<a href="terms.html">תנאי השימוש</a>.</p>
+  </main>
+  <footer>עדכון: 10.10.2026. דף מידע זה אינו אישור אימות או פרסום מטעם גוגל.</footer>
+</body>
+</html>
